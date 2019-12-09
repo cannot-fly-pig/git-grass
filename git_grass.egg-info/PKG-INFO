@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: git-grass
+Version: 1.0.0
+Summary: You can see git contribution on comannd line
+Home-page: https://github.com/cannot-fly-pig/git-grass
+Author: cannot-fly-pig
+Author-email: document.sabakan@gmail.com
+License: MIT
+Description: # git-grass
+        
+        コマンド上からgithubの芝生(contribution)を確認できます
+        
+Keywords: git-grass
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
