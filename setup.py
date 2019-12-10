@@ -8,13 +8,18 @@ with open(path.join(here, 'README.md'), encoding='utf-8') as f:
 
 setup(
     name="git-grass",
-    packages=['git-grass'], # パッケージ内(プロジェクト内)のパッケージ名をリスト形式で指定
 
     version='1.0.0', # バージョン
 
     license='MIT', # ライセンス
 
     install_requires=["beautifulsoup4","requests"], # pip installする際に同時にインストールされるパッケージ名をリスト形式で指定
+
+    entry_points={
+            "console_scripts": [
+                "git-glass = app:main"
+            ]
+    },
 
     author='cannot-fly-pig', # パッケージ作者の名前
     author_email='document.sabakan@gmail.com', # パッケージ作者の連絡先メールアドレス
